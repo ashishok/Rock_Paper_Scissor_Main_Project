@@ -1,0 +1,283 @@
+body {
+    /* background-color: rgb(188, 152, 152); */
+    background-color: rgb(206, 216, 149);
+}
+
+
+
+/* inputted name recived from the Begin page */
+#result_name {
+    color: rgb(237, 16, 16);
+    font-weight: 900;
+    background-color: #a0cae9;
+    border-radius: 18px;
+    padding: 3px 10px 7px 10px;
+}
+h3 {
+    margin-top: .5%;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+/* form-2 to to input the total no. of rounds want to paly  */
+#one {
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+#validationServer {
+    font-weight: 500;
+    font-size: 18px;
+    color: blue;
+}
+.form-control {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 0px 5px 0px;
+
+}
+
+
+
+/* submit button after input the total rounds */
+#four {
+    margin-left: 45.7%;
+    margin-top: 1.5%;
+    font-size: 22px;
+    padding: 5px 2% 5px 2%;
+}
+
+
+
+/* my and computer score  */
+.num {
+    display: flex;
+}
+/* my score */
+#nine1 {
+    background-color: #d8a36b;
+    margin-top: 2%;
+    margin-left: 29%;
+    margin-right: 10%;
+    padding: 10px 3% 0px 3%;
+    border-radius: 9px;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+/* computer score */
+#ten1 {
+    background-color: #d8a36b;
+    margin-top: 2%;
+    margin-left: 9%;
+    padding: 10px 3% 0px 3%;
+    border-radius: 9px;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+
+}
+/* score received from js for me */
+#mine_score {
+    color: aqua;
+    font-size: 33px;
+    padding-left: 30%;
+    font-weight: 900;
+}
+/* score received from js for computer */
+#com_score {
+    color: aqua;
+    font-size: 33px;
+    padding-left: 34%;
+    font-weight: 900;
+}
+
+
+
+/* playing the game*/
+.num2 {
+    display: flex;
+}
+/* my selected buttons from rock, paper and scissors */
+#your_move {
+    background-color: #f2e9dc;
+    margin-left: 14.5%;
+    padding: 2% 4.5% 2% 4.5%;
+    border-radius: 9px;
+    font-size: large;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+/* computer selected buttons from rock, paper and scissors */
+#computer_move {
+    background-color: #f2e9dc;
+    margin-left: 26%;
+    padding: 2% 4.7% 2% 4.5%;
+    border-radius: 9px;
+    font-size: large;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+
+
+
+/*  total moves left */
+#ten2 {
+    background-color: rgb(202, 124, 124);
+    margin-left: 45.9%;
+    margin-right: 43.9%;
+    padding: 1% 2% .1px 2%;
+    text-align: center;
+    border-radius: 40px;
+    border: 1px solid rgb(47, 116, 219);
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+/* updated moves after every click */
+.mov_lft {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+
+/* round winner after every click  */
+#round_winner {
+    background-color: #fffa6f;
+    margin-top: 1.2%;
+    margin-left: 44%;
+    margin-right: 42%;
+    padding: 1% 1% 1% 1%;
+    text-align: center;
+    border-radius: 9px;
+    font-weight: 900;
+    font-size: 18px;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+
+
+
+/* rock paper scissor buttons */
+#rock {
+    margin-top: 1.1%;
+    margin-left: 31%;
+    font-size: 22px;
+    border-radius: 50px;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .9), -7px 0px 10px rgba(0, 0, 0, .69);
+
+}
+#paper,
+#scissor {
+    margin-top: 1.1%;
+    margin-left: 6%;
+    font-size: 22px;
+    border-radius: 50px;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .9), -7px 0px 10px rgba(0, 0, 0, .9);
+
+}
+.options :hover {
+    background-color: rgb(82, 173, 55);
+}
+
+
+
+/* final winner */
+#final_winner {
+
+    margin-top: 4%;
+    margin-left: 32%;
+    margin-right: 30%;
+    padding: .5% 2% 1% 2%;
+    background-color: #d0d8ac;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+
+ 
+
+/* Play again button */
+.play_more {
+    margin-top: 3.5%;
+    margin-left: 48%;
+    /* padding: 3% 3% 3% 3% ; */
+    /* font-size: 30px; */
+}
+#play {
+    padding: 2% 2% 2% 2%;
+    border-radius: 15px;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+
+
+
+/* exit game button  */
+.end_game {
+    margin-top: 3%;
+    margin-left: 79%;
+}
+#end {
+    padding: 4% 4% 4% 4%;
+    border-radius: 15px;
+    box-shadow: 7px 0px 10px rgba(0, 0, 0, .6), -7px 0px 10px rgba(0, 0, 0, .6);
+}
+
+
+
+/* conclusion message in the last step */
+.conclusion {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20%;
+    font-weight: 800;
+}
+/* input name received from the js */
+#conclusion_name {
+    color: rgb(237, 16, 16);
+    font-weight: 900;
+    background-color: yellow;
+    border-radius: 18px;
+    padding: 3px 10px 7px 10px;
+}
+
+
+
+/* end game maker name */
+#cpy {
+    margin-top: .5%;
+    font-size: 28px;
+    text-align: right;
+    margin-right: 18%;
+    color: rgb(67, 40, 188);
+
+}
+
+
+
+/* choose option paragraph */
+.chos_buton {
+    text-align: center;
+    margin-left: 43%;
+    margin-right: 41%;
+    margin-top: 1.7%;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(230, 218, 227);
+    border-radius: 20px;
+}
+
+
+
+/*   cum and score_name of font-weight for the my score and computer score  */
+#cum,#score_name
+{
+    font-weight: 500;
+}
+
+
+
+/* js file id font-size for the option choosen button of rock paper and scissor button  */
+#here
+{
+    font-size: 23px;
+}
